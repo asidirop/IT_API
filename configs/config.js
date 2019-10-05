@@ -51,7 +51,11 @@ const WORDPRESS_CREDENTIALS = {
   url: 'https://www.it.teithe.gr',
   username: 'fakeusername',
   password: 'fakepassword',
-  rejectUnauthorized: false
+  rejectUnauthorized: false,
+  categories: [   // the termID for each category/term
+    {'8': 'Πρόσφατες Ανακοινώσεις'},   
+    {'14': 'Εκδηλώσεις'}
+    ]
 }
 
 const PERMISSIONS = {
